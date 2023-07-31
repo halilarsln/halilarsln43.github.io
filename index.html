@@ -1,1 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
 
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <form>
+        <i><strong>type="text"</strong></i><br><br>
+        <input name="metin1" type="text" placeholder="Halil Arslan" />
+        <hr>
+        <i><strong>type="password":</strong></i><br><br>
+        <input name="şifre" type="password" />
+        <hr>
+        <i><strong>type="radio":</strong></i><br><br>
+        <input name="radio" type="radio" value="Onay Sec" />
+        <hr>
+        <i><strong> type="checkbox": </strong></i><br><br>
+        <input name="onay" type="checkbox" value="Onay Sec" />
+        <hr>
+        <i><strong>type="button":</strong></i><br><br>
+        <input name="buton" type="button" value="Gönder">
+        <hr>
+        <i><strong>type="submit":</strong></i><br><br>
+        <input name="gonder" type="submit" value="submit">
+        <hr>
+        <i><strong>type="reset":</strong></i><br><br>
+        <input name="reset" type="reset" value="Temizle">
+    </form>
+
+</body>
+
+<body>
+    <form>
+        <input name="range-test" min="0" max="150" step="5" type="range">
+    </form>
+</body>
+
+<body>
+    <form>
+        <i><strong>type="color":</strong></i><br><br>
+        <input name="color" type="color" value="#3300ff">
+        <hr>
+        <i><strong>type="date":</strong></i><br><br>
+        <input name="date" type="date">
+        <hr>
+        <i><strong>type="email":</strong></i><br><br>
+        <input name="email" type="email">
+        <hr>
+        <i><strong>type="number":</strong></i><br><br>
+        <input name="number" type="number">
+        <hr>
+        <i><strong>type="range":</strong></i><br><br>
+        <input name="aralik" type="range">
+        <hr>
+        <i><strong>type="search":</strong></i><br><br>
+        <input name="arama" type="search">
+        <hr>
+        <i><strong>type:"time":</strong></i><br><br>
+        <input name="saat" type="time">
+        <hr>
+        <i><strong>type="Submit":</strong></i><br><br>
+        <input name="Submit" type="submit">
+        <hr>
+
+    </form>
+</body>
+
+<body>
+    <form>
+        <input type="checkbox" name="kutu1" checked="on">HTML <br>
+        <input type="checkbox" name="kutu2">PHP <br>
+        <input type="checkbox" name="kutu3">MySQL
+    </form>
+</body>
+
+<body>
+    <p><input type="text" name="ARA" id="ARA" placeholder="PC PARÇALARI" list="ARA_T" autocomplete="off">
+        <datalist id="ARA_T">
+            <option>HARDDİSK</option>
+            <option>EKRAN KARTI</option>
+            <option>MONİTÖR</option>
+            <option>SES KARTI</option>
+            <option>ETERNET KARTI</option>
+            <option>RAM</option>
+        </datalist>
+    </p>
+</body>
+
+<body>
+    <form>
+        <oninput="yy.valueInt(x.value)+parseInt(y.value)">0<input type="range" id="x" value="1000">100
+        +<input type="number" id="y" value="1000">=<output name="yy" for="x y"></output>
+    </form>
+</body>
+
+<body>
+    <form action="keygen.php" method="post">
+        Kullanici Adi:<input type="text" name="text">
+        Kodlama: <keygen name="key">
+        Gonder:<input type="submit" name="submit">
+    </form>
+</body>
+
+<body>
+    <form action="">
+        <input type="color" name="arkaplan">
+        <output name="y" for="b"></output>
+    </form>
+</body>
+
+
+<body>
+    <form>
+        İsim: <br>
+        <input name="Adınız" type="text" placeholder="Adınız"> <br>
+        Mail: <br>
+        <input name="mail" type="email" placeholder="email"> <br>
+        Yorum: <br>
+        <input name="Yorumunuz" type="text" placeholder="Yorumunuz"><br>
+        <input type="button" value="Gonder">
+        <input type="button" value="Sıfırla"> <br> <br>
+    </form>
+</body>
+
+<body>
+    <form>
+        AD: <input type="text" placeholder="Lütfen Adınızı Giriniz"> <br>
+        SOYAD: <input type="text" placeholder="Lütfen Soyadınızı Giriniz"> <br>
+        FUTBOL <input type="checkbox"> YÜZME<input type="checkbox"> KARATE<input type="checkbox"> KİTAP<input
+            type="checkbox"> <br>
+        KADIN <input type="radio">ERKEK <input type="radio"> <br>
+        YAŞ: <input type="number"> <br>
+        MAİL: <input type="email"> <br>
+        <input type="button" value="KAYDET"> <input type="button" value="TEMİZLE">
+    </form>
+</body>
+
+<body>
+    <table border="1" cellpadding="2">
+        <tr>
+            <td>Ad:</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Soyadı:</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Resim Ekle:</td>
+            <td><input type="file"></td>
+        </tr>
+        <tr>
+            <td>TC NO:</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Cinsiyet:</td>
+            <td>K<input type="radio">E<input type="radio"></td>
+        </tr>
+        <tr>
+            <td>YABANCI DİLLER</td>
+            <td>İngilizce <input type="checkbox">Fransızca <input type="checkbox">Japonca <input type="checkbox"></td>
+
+        </tr>
+        <tr>
+            <td>Görüş</td>
+            <td><input type="text" placeholder="GÖRÜŞÜNÜZ"></td>
+        </tr>
+        <tr>
+            <td colspan="2"><input type="submit" value="Kaydet"><input type="reset" value="Temizle"></td>
+
+        </tr>
+
+
+    </table>
+</body>
